@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BXKD5nRU3w9KdgYtV69G3z9FzZPDQB0vvYKXdokkL/Y=",
+  "Source": "Bridge-server",
+  "BasePath": "_content/Bridge-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

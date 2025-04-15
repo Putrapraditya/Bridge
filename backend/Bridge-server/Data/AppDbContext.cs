@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Bridge_server.Entities;
+using Boilerplate.Entities;
 
 namespace Bridge_server.Data
 {
@@ -11,6 +12,8 @@ namespace Bridge_server.Data
 
         public DbSet<MsTenant> MsTenant { get; set; }
         public DbSet<MsProject> MsProject { get; set; }
+        public DbSet<MsTenantProject> MsTenantProject { get; set; }
+        public DbSet<MsUserTenant> MsUserTenant { get; set; }
 
 
 

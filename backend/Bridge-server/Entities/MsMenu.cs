@@ -6,21 +6,16 @@ namespace Bridge_server.Entities
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
-
-        [Required]
-        public string Name { get; set; } = string.Empty;
-
+        public Guid ProjectId { get; set; }
+        public string Name { get; set; }
         public string? Url { get; set; }
-
-        [Required]
-        public Guid ProjectId { get; set; } // Relasi ke Project (Web Bisnisflow)
-
-        public bool IsActive { get; set; } = true;
-
-        public int Order { get; set; } = 0;
+        public string? Icon { get; set; }
+        public int Order { get; set; }
+        public Guid? ParentId { get; set; }
+        public bool IsShow { get; set; } = true;
 
         // Audit
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
         public Guid CreatedBy { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public Guid? UpdatedBy { get; set; }

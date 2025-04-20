@@ -54,6 +54,7 @@ builder.Services.AddScoped<ITenantRepository, TenantRepository>();
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<ITenantProjectService, TenantProjectService>();
 builder.Services.AddScoped<IUserTenantRepository, UserTenantRepository>();
+builder.Services.AddScoped<IMsMenuRepository, MsMenuRepository>();
 
 
 

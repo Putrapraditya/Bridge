@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WS24002255\\source\\repos\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj": {}
+    "C:\\Users\\USER\\Documents\\GitHub\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WS24002255\\source\\repos\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj": {
+    "C:\\Users\\USER\\Documents\\GitHub\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WS24002255\\source\\repos\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj",
         "projectName": "Bridge-server",
-        "projectPath": "C:\\Users\\WS24002255\\source\\repos\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj",
-        "packagesPath": "C:\\Users\\WS24002255\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WS24002255\\source\\repos\\Bridge\\backend\\Bridge-server\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\Bridge\\backend\\Bridge-server\\Bridge-server.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\Bridge\\backend\\Bridge-server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\WS24002255\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

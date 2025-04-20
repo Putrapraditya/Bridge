@@ -16,6 +16,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bridge.Controllers.MsMenuController",
+    "Method": "GetAll",
+    "RelativePath": "api/MsMenu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge.Controllers.MsMenuController",
+    "Method": "Create",
+    "RelativePath": "api/MsMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Bridge_server.DTOs.MsMenu.CreateMsMenuDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge.Controllers.MsMenuController",
+    "Method": "GetById",
+    "RelativePath": "api/MsMenu/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge.Controllers.MsMenuController",
+    "Method": "Update",
+    "RelativePath": "api/MsMenu/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Bridge_server.DTOs.MsMenu.UpdateMsMenuDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge.Controllers.MsMenuController",
+    "Method": "Delete",
+    "RelativePath": "api/MsMenu/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bridge_server.Controllers.ProjectsController",
     "Method": "GetAll",
     "RelativePath": "api/Projects",

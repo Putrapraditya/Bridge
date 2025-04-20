@@ -14,6 +14,7 @@ namespace Bridge_server.Data
         public DbSet<MsProject> MsProject { get; set; }
         public DbSet<MsTenantProject> MsTenantProject { get; set; }
         public DbSet<MsUserTenant> MsUserTenant { get; set; }
+        public DbSet<MsMenu> MsMenus { get; set; }
 
 
 

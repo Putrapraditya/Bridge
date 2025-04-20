@@ -1,0 +1,15 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Bridge_server.DTOs.MsMenu
+{
+    public class CreateMsMenuDto
+    {
+        public Guid ProjectId { get; set; }
+        public string Name { get; set; }
+        public string? Url { get; set; }
+        public string? Icon { get; set; }
+        public Guid? ParentId { get; set; }
+        public bool IsShow { get; set; }
+        public Guid CreatedBy { get; set; }
+    }
+}
